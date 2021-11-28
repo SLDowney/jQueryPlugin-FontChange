@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>~Font Changer~</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<main>
+    <h1>Font Changer!</h1>
+    <div class="flex-container">
+        <label id="options">Header Options:</label>
+            <select name="header_options" id="header" class="options">
+                <option value="" selected disabled hidden>Pick Me!</option>
+                <option value="1">Fancy!</option>
+                <option value="2">Serious (A.K.A. the "No Fun Zone")</option>
+                <option value="3">Child at Heart!</option>       		        		        		
+            </select><br>
+        <label id="options">Paragraph Options:</label>
+            <select name="paragraph_options" id="paragraph" class="options">
+                <option value="" selected disabled hidden>Choose Wisely!</option>
+                <option value="1">Handwritten Journal from the 1800s.</option>
+                <option value="2">Bland, but readable.</option>
+                <option value="3">Why? Because we can!</option>        		        		        		
+            </select><br>
+    </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel porta metus. Aliquam euismod, nunc vel feugiat auctor, sem tellus suscipit sem, quis rhoncus justo mi nec dolor.</p> 
+        <p> Etiam ut bibendum neque. Praesent consequat ex id vulputate lacinia. Vivamus laoreet risus augue. Pellentesque suscipit dui at egestas pharetra. Nullam tincidunt lectus quam, eget commodo lectus hendrerit ac. Fusce non condimentum turpis, non finibus justo. Nulla facilisi. Aenean scelerisque odio lacus, eget finibus ante malesuada eu. Pellentesque efficitur est ipsum, in pellentesque sem blandit at.</p> 
+        <p>Mauris tristique egestas fringilla. Sed laoreet vitae nisi ut pharetra. In eget ligula id orci consequat ornare id non purus.
+            Fusce mattis mauris eu lacus porttitor, a congue metus dapibus. Vestibulum odio ipsum, vulputate id ullamcorper eget, pellentesque a quam.</p>
+        <p>Fusce ut fermentum metus. Vivamus pulvinar dui odio, sed ultricies odio fermentum quis. Praesent ornare massa vel tincidunt luctus. Aenean commodo arcu mi. Nulla at tellus dolor. Morbi ut libero a nisl interdum porta.</p>
+    <input type="button" id="reset" value="This is fun! Let's go again!">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="plugin.js"></script>
+    <script src="app.js"></script>
+</main>
+</body>
+</html>
