@@ -1,17 +1,17 @@
-h1 {
+/* h1 {
     text-align: center;
     font-family:'Arial', Helvetica, sans-serif;
 	font-size: 200%;
     margin-top: 20px;
 	padding: 10px;
-}
-p {
+} */
+/* p {
     text-align: justify;
     text-indent: 50px;
     font-family:'Arial', Helvetica, sans-serif;
     width: 75%;
     margin: 25px 0 30px 10%;
-}
+} */
 body {
     border: 25px dotted rgb(255, 0, 106, 0.5);
     background: url("background.jpg");
@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.flex-container {
+/* .flex-container {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,10 +27,10 @@ body {
 	margin-top: 15px;
     margin-left: 20px;
 	padding: 10px;
-}
-#options {
+} */
+/* #options {
 	padding: 10px;
-}
+} */
 #reset {
     padding: 5px;
     margin: 15px 50% 30px 40%; 
