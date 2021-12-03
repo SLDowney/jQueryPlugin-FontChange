@@ -29,6 +29,15 @@ needed html elements into this div to show the options menus.
     ```
     
 4. In your default JavaScript file, create a method call to `fontChanger();` - this will call the plugin and make it usable on your webpage. 
+An example method call would look like:
+
+```javascript
+$(".options-container").fontChanger({
+    fontFamilyHeader: "'Arial', Helvetica, sans-serif",
+    fontFamilyPara: "Arial, Helvetica, sans-serif",
+    fontSize: "100%"
+}); 
+```
 
 Use
 ===
