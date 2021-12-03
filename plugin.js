@@ -3,14 +3,19 @@
         let settings = $.extend({
             fontFamilyHeader: "'Bookshelf Symbol 7', Times, serif",
             fontFamilyPara: "'Arial', Helvetica, sans-serif",
+            fontSize: "100%"
         }, options);
         
-        //Iterating through each image Gallery 
+        // Iterating through each image Gallery 
         return this.each(function() {
 
             // Function to change Header Font
             const changeHeader = () => {
                 console.log("change Header")
+
+                if ( $("#header").val() == "" ) {
+                    $("h1").css("font-family", settings.fontFamilyHeader);
+                }
                 if ( $("#header").val() == "1" ) {
                     $("h1").css("font-family", "'Brush Script MT', Helvetica, sans-serif");
                 }
@@ -25,6 +30,11 @@
             // Function to change Paragraph Font
             const changeParagraph = () => {
                 console.log("change Paragraph");
+                if ( $("#paragraph").val() == "" ) {
+                    console.log("value default");
+                    $("p").css("font-family", settings.fontFamilyPara);
+                    $("p").css("font-size", settings.fontSize)
+                }
                 if ( $("#paragraph").val() == "1" ) {
                     console.log("paragraph option 1");
                     $("p").css("font-family", "'Kunstler Script', Helvetica, sans-serif");
